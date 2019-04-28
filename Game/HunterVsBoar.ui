@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1037</width>
+    <height>885</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hunter vs Boar</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>819</y>
+     <width>1031</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="attack_btn">
+      <property name="font">
+       <font>
+        <family>Yu Gothic UI Semibold</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Attack</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="heal_btn">
+      <property name="text">
+       <string>Heal</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="dmg_btn">
+      <property name="text">
+       <string>Damage potion</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1041</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextBrowser" name="textBrowser_2"/>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="textBrowser_1"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>790</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>What do you want to do?</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="hp_hunter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>790</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>770</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hunter</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="hp_boar">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>790</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>24</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>770</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Boar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start_btn">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>630</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stop_btn">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>630</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stop!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
